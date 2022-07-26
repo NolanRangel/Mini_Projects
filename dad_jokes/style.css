@@ -53,10 +53,16 @@ h3 {
     cursor: pointer;
 }
 
+.btn:hover {
+    transition: 0.2s ease-in;
+    box-shadow: 0 3px 3px rgba(0,0,0, 0.3) 
+}
+
 .btn:focus {
     outline: 0;
 }
 
 .btn:active {
-    transform: scale(0.98);
+    transform: scale(0.9);
+    box-shadow: none;
 }
